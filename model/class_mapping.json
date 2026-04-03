@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "Healthy",
+    "Tomato_Early_Blight",
+    "Tomato_Late_Blight",
+    "Tomato_Leaf_Mold",
+    "Potato_Early_Blight",
+    "Potato_Late_Blight"
+  ],
+  "treatments": {
+    "Healthy": "Plant is healthy! Continue regular watering and monitoring.",
+    "Tomato_Early_Blight": "Apply fungicide containing chlorothalonil or copper. Remove infected leaves. Improve air circulation. Avoid overhead watering.",
+    "Tomato_Late_Blight": "Apply fungicide immediately. Remove infected plants to prevent spread. Avoid overhead watering. Destroy heavily infected plants.",
+    "Tomato_Leaf_Mold": "Apply fungicide containing copper or sulfur. Reduce humidity around plants. Remove infected leaves. Improve air circulation.",
+    "Potato_Early_Blight": "Apply fungicide (mancozeb or chlorothalonil). Remove infected foliage. Practice crop rotation. Use resistant varieties.",
+    "Potato_Late_Blight": "Apply fungicide immediately (metalaxyl or mancozeb). Destroy infected plants. Use resistant varieties. Practice crop rotation."
+  },
+  "class_to_index": {
+    "Healthy": 0,
+    "Tomato_Early_Blight": 1,
+    "Tomato_Late_Blight": 2,
+    "Tomato_Leaf_Mold": 3,
+    "Potato_Early_Blight": 4,
+    "Potato_Late_Blight": 5
+  }
+}

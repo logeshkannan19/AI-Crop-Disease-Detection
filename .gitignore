@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Backend
+backend/uploads/
+
+# ML Model
+*.keras
+*.h5
+*.pt
+model/training_history.png
+
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+dataset/train/*
+dataset/test/*
+!dataset/.gitkeep
