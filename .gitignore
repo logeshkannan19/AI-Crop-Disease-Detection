@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+ENV/
+
+# Backend
+backend/app/uploads/
+*.log
+
+# ML Model
+*.keras
+*.h5
+*.pt
+ml/model/*.keras
+ml/model/*.h5
+!ml/model/.gitkeep
+
+# Frontend
+node_modules/
+dist/
+build/
+npm-debug.log*
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Data
+data/train/*
+data/test/*
+!data/.gitkeep
+
+# Environment
+.env
+
+# Logs
+logs/
+*.log
