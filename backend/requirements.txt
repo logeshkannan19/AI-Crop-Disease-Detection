@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AgriScan AI Backend Dependencies
 # ================================
 
@@ -22,3 +23,13 @@ python-dotenv>=1.0.0
 pytest>=7.4.0
 pytest-asyncio>=0.23.0
 httpx>=0.26.0
+=======
+# Backend Requirements
+flask>=2.3.0
+flask-cors>=4.0.0
+tensorflow>=2.13.0
+numpy>=1.24.0
+pillow>=10.0.0
+werkzeug>=2.3.0
+gunicorn>=21.0.0
+>>>>>>> aff8d2cddc87ce5aa0de233160c437a51cde9769

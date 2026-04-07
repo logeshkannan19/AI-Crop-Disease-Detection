@@ -7,16 +7,23 @@ __pycache__/
 venv/
 env/
 .venv/
+<<<<<<< HEAD
 ENV/
 
 # Backend
 backend/app/uploads/
 *.log
+=======
+
+# Backend
+backend/uploads/
+>>>>>>> aff8d2cddc87ce5aa0de233160c437a51cde9769
 
 # ML Model
 *.keras
 *.h5
 *.pt
+<<<<<<< HEAD
 ml/model/*.keras
 ml/model/*.h5
 !ml/model/.gitkeep
@@ -29,12 +36,21 @@ npm-debug.log*
 .env
 .env.local
 .env.*.local
+=======
+model/training_history.png
+
+# Node
+node_modules/
+npm-debug.log
+.env
+>>>>>>> aff8d2cddc87ce5aa0de233160c437a51cde9769
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+<<<<<<< HEAD
 *.swn
 .DS_Store
 
@@ -49,3 +65,14 @@ data/test/*
 # Logs
 logs/
 *.log
+=======
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+dataset/train/*
+dataset/test/*
+!dataset/.gitkeep
+>>>>>>> aff8d2cddc87ce5aa0de233160c437a51cde9769
