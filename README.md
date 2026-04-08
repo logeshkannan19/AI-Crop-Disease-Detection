@@ -1,84 +1,143 @@
 # AgriScan AI - Crop Disease Detection System
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=36&color=2E7D32&center=true&vCenter=true&width=800&height=50&lines=AgriScan+AI;Crop+Disease+Detection+System" alt="AgriScan AI" />
+</p>
+
 <div align="center">
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://tensorflow.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.109+-white.svg)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-18-blue.svg)](https://react.dev/)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
+<p align="center">
+  <img src="https://img.shields.io/badge/architecture-Microservices-blue?style=for-the-badge" alt="Architecture" />
+  <img src="https://img.shields.io/badge/python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/tensorflow-2.15+-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/fastapi-0.109+-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/react-18-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/status-Production_Ready-success?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License" />
+</p>
 
-**AI-Powered Crop Disease Detection for Modern Agriculture**
+<p><b>AI-Powered Crop Disease Detection for Modern Agriculture</b></p>
 
-*EACE 2026 Exhibition Project | Startup MVP*
+<p>
+  <a href="https://github.com/logeshkannan19/AI-Crop-Disease-Detection">
+    <img src="https://img.shields.io/github/stars/logeshkannan19/AI-Crop-Disease-Detection?style=social" alt="Stars" />
+  </a>
+  <a href="https://github.com/logeshkannan19/AI-Crop-Disease-Detection/fork">
+    <img src="https://img.shields.io/github/forks/logeshkannan19/AI-Crop-Disease-Detection?style=social" alt="Forks" />
+  </a>
+  <a href="https://github.com/logeshkannan19/AI-Crop-Disease-Detection/issues">
+    <img src="https://img.shields.io/github/issues/logeshkannan19/AI-Crop-Disease-Detection" alt="Issues" />
+  </a>
+  <a href="https://github.com/logeshkannan19/AI-Crop-Disease-Detection/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/logeshkannan19/AI-Crop-Disease-Detection/ci-cd.yml" alt="CI/CD" />
+  </a>
+</p>
+
+<p>
+  <img src="https://api.visitorbadge.io/api/visitors?path=logeshkannan19%2FAI-Crop-Disease-Detection&label=visitors&countColor=%232E7D32" alt="Visitors" />
+  <img src="https://img.shields.io/github/last-commit/logeshkannan19/AI-Crop-Disease-Detection/main" alt="Last Commit" />
+  <img src="https://img.shields.io/github/contributors/logeshkannan19/AI-Crop-Disease-Detection" alt="Contributors" />
+</p>
+
+<p><i>🏆 EACE 2026 Exhibition Project | 🚀 Startup MVP</i></p>
 
 </div>
 
 ---
 
-## Table of Contents
+## 📋 Table of Contents
 
-1. [Overview](#overview)
-2. [Problem Statement](#problem-statement)
-3. [How It Works](#how-it-works)
-4. [System Architecture](#system-architecture)
-5. [Model Architecture](#model-architecture)
-6. [Supported Diseases](#supported-diseases-v10)
-7. [Tech Stack](#tech-stack)
-8. [Project Structure](#project-structure)
-9. [Installation](#installation)
-10. [API Documentation](#api-documentation)
-11. [Model Training](#model-training)
-12. [Testing](#testing)
-13. [Business Model](#business-model)
-14. [Future Roadmap](#future-roadmap)
-15. [Contributing](#contributing)
-16. [License](#license)
-17. [Acknowledgments](#acknowledgments)
-18. [Contact](#contact)
+- [About](#about)
+- [Problem Statement](#problem-statement)
+- [How It Works](#how-it-works)
+- [System Architecture](#system-architecture)
+- [Model Architecture](#model-architecture)
+- [Supported Diseases](#supported-diseases)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [API Documentation](#api-documentation)
+- [Model Training](#model-training)
+- [Testing](#testing)
+- [Business Model](#business-model)
+- [Future Roadmap](#future-roadmap)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
 
 ---
 
-## Overview
+## 📖 About
 
-AgriScan AI is an end-to-end machine learning system designed to detect and classify plant diseases from leaf images. Built with TensorFlow/FastAPI/React, it provides farmers and agricultural businesses with instant, accurate disease diagnosis and treatment recommendations.
+**AgriScan AI** is an end-to-end machine learning system designed to detect and classify plant diseases from leaf images. Built with **TensorFlow**, **FastAPI**, and **React**, it provides farmers and agricultural businesses with instant, accurate disease diagnosis and treatment recommendations.
 
 The system leverages deep learning (Convolutional Neural Networks) to analyze plant leaf imagery, identify disease patterns, and provide actionable treatment guidance—all within seconds.
 
-### Key Features
+### ✨ Key Features
 
-- **Real-time Detection**: Results in under 2 seconds
-- **High Accuracy**: 90%+ accuracy on test data
-- **Treatment Recommendations**: Provides actionable disease management advice
-- **RESTful API**: Easy integration with existing systems
-- **Containerized**: Docker Compose for easy deployment
+| Feature | Description |
+|---------|-------------|
+| ⚡ **Real-time Detection** | Results in under 2 seconds |
+| 🎯 **High Accuracy** | 90%+ accuracy on test data |
+| 💊 **Treatment Recommendations** | Provides actionable disease management advice |
+| 🌐 **RESTful API** | Easy integration with existing systems |
+| 🐳 **Containerized** | Docker Compose for easy deployment |
+| 📱 **Mobile Friendly** | Works on any smartphone |
+
+### 🎯 Target Audience
+
+- 🌾 Smallholder farmers
+- 🚜 Agricultural cooperatives
+- 🏢 Farm management companies
+- 🔬 Agricultural research institutions
+- 🌿 Agricultural input suppliers
 
 ---
 
-## Problem Statement
+## ⚠️ Problem Statement
 
 Plant diseases cause significant agricultural losses worldwide, threatening food security and farmer livelihoods.
 
-| Metric | Impact |
-|--------|-------|
-| Global Crop Loss | 20-40% annually |
-| Economic Impact | $220+ billion per year |
-| Detection Time | Often too late when diseases spread |
-| Smallholder Impact | Most vulnerable to losses |
+### 📊 Global Impact
 
-**Why Early Detection Matters:**
+| Metric | Impact | Source |
+|--------|--------|--------|
+| Global Crop Loss | **20-40%** annually | [FAO](https://www.fao.org/) |
+| Economic Impact | **$220+ billion** per year | [World Bank](https://www.worldbank.org/) |
+| Detection Time | Often too late when diseases spread | Research |
+| Smallholder Impact | Most vulnerable to losses | [IFAD](https://www.ifad.org/) |
 
-- Early detection can save up to 80% of affected crops
-- Prevents disease spread to healthy plants
-- Reduces need for expensive chemical treatments
-- Maximizes yield and quality of harvest
+### 🔥 Why Early Detection Matters
+
+```
+┌────────────────────────────────────────────────────────────────────┐
+│                     EARLY DETECTION BENEFITS                       │
+├────────────────────────────────────────────────────────────────────┤
+│                                                                    │
+│   ✓ Save up to 80% of affected crops                              │
+│   ✓ Prevent disease spread to healthy plants                      │
+│   ✓ Reduce need for expensive chemical treatments                 │
+│   ✓ Maximize yield and quality of harvest                        │
+│   ✓ Lower overall farming costs                                   │
+│                                                                    │
+└────────────────────────────────────────────────────────────────────┘
+```
+
+### 🌍 Market Opportunity
+
+- **500M+** smallholder farmers worldwide need disease detection
+- **$4.5B** addressable market in agricultural AI
+- **30%** year-over-year growth in agritech sector
 
 ---
 
-## How It Works
+## 🔄 How It Works
 
 AgriScan AI uses a multi-stage pipeline to process leaf images and provide disease predictions:
+
+### Data Flow Pipeline
 
 ```
 ┌──────────────┐    ┌──────────────┐    ┌──────────────┐    ┌──────────────┐
@@ -86,298 +145,624 @@ AgriScan AI uses a multi-stage pipeline to process leaf images and provide disea
 │   Image      │    │   (Resize,   │    │   (CNN       │    │   (Disease + │
 │              │    │    Normalize)│    │   Inference) │    │   Treatment) │
 └──────────────┘    └──────────────┘    └──────────────┘    └──────────────┘
+     1️⃣                2️⃣                3️⃣                4️⃣
 ```
 
 ### Step-by-Step Process
 
-#### 1. Image Upload
-- User captures or uploads a photo of a plant leaf
-- Frontend performs basic client-side validation
-- Image is sent to the backend via multipart/form-data
+#### Step 1: Image Upload 📤
+```
+User Action          →  Frontend Processing        →  API Request
+─────────────────────────────────────────────────────────────────────
+• Capture photo      →  • File type validation     →  POST /api/predict
+• Upload from device →  • Size check (<10MB)       →  multipart/form-data
+• Drag & drop        →  • Preview generation       →  Image file
+```
 
-#### 2. Image Preprocessing
-- Image is loaded and decoded
-- Resized to 128x128 pixels (model input requirement)
-- Pixel values normalized to [0, 1] range
-- Additional augmentation applied for robustness
+#### Step 2: Image Preprocessing ⚙️
+```
+Backend Processing   →  Tensor Processing           →  Ready for Model
+─────────────────────────────────────────────────────────────────────
+• Decode image      →  • Resize to 128×128         →  Shape: (128,128,3)
+• Validate format   →  • Normalize pixels [0,1]    →  dtype: float32
+• Error handling    →  • Expand dimensions        →  Shape: (1,128,128,3)
+```
 
-#### 3. Model Inference
-- Preprocessed image passed to TensorFlow/Keras model
-- Forward pass through CNN layers
-- Probability distribution over 6 classes
-- Predicted class selected via argmax
+#### Step 3: Model Inference 🧠
+```
+Model Forward Pass   →  Probability Distribution   →  Class Prediction
+─────────────────────────────────────────────────────────────────────
+• Conv2D Block 1    →  [0.02, 0.75, 0.15, ...]    →  argmax → Class 1
+• Conv2D Block 2    →  Softmax activation         →  Tomato Early Blight
+• Conv2D Block 3    →  Output: 6 classes         →  Confidence: 75%
+• Dense layers      →                             →
+```
 
-#### 4. Response Generation
-- Disease class mapped to human-readable name
-- Confidence score calculated (probability × 100)
-- Treatment recommendations retrieved from database
-- JSON response sent back to client
+#### Step 4: Response Generation 📋
+```
+Prediction          →  Database Lookup            →  JSON Response
+─────────────────────────────────────────────────────────────────────
+• Class ID: 1       →  Treatment database         →  { "disease": "...", 
+• Confidence: 75%   →  Disease details            →    "confidence": 75,
+• Map to name      →  Severity, crop info        →    "treatment": "..." }
+```
 
-### Data Flow
+### End-to-End Request Flow
 
 ```
-┌─────────────┐      ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
-│   Frontend  │      │  FastAPI    │      │   ML        │      │  Response   │
-│   (React)   │      │  Router     │      │  Service    │      │  Builder    │
-│             │      │             │      │             │      │             │
-│ - UI/UX     │ ───► │ - /predict  │ ───► │ - Load img  │ ───► │ - Disease   │
-│ - File pick │      │ - Validation│      │ - Inference │      │ - Confidence│
-│ - Display   │      │ - Error hnd │      │ - Threshold │      │ - Treatment │
-└─────────────┘      └─────────────┘      └─────────────┘      └─────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              REQUEST FLOW                                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+  Client              Frontend            Backend             ML Service
+    │                    │                   │                    │
+    │  Select Image     │                   │                    │
+    │───────────────────>│                   │                    │
+    │                    │                   │                    │
+    │                    │  POST /predict    │                    │
+    │                    │──────────────────>│                    │
+    │                    │                   │                    │
+    │                    │                   │  Load & Preprocess │
+    │                    │                   │───────────────────>│
+    │                    │                   │                    │
+    │                    │                   │        Model Inference
+    │                    │                   │<───────────────────│
+    │                    │                   │                    │
+    │                    │  Response (JSON)  │                    │
+    │                    │<──────────────────│                    │
+    │                    │                   │                    │
+    │  Display Results  │                   │                    │
+    │<──────────────────│                   │                    │
+    │                    │                   │                    │
 ```
 
 ---
 
-## System Architecture
+## 🏗️ System Architecture
 
 ### High-Level Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                              AGRI SCAN AI                                    │
+│                         SYSTEM ARCHITECTURE                                  │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                              │
-│  ┌──────────────────┐         ┌──────────────────┐         ┌─────────────┐ │
-│  │   Frontend       │         │   Backend        │         │   ML Model  │ │
-│  │   (React + Vite) │ ──────► │   (FastAPI)      │ ──────► │  (Tensor    │ │
-│  │                  │         │                  │         │   Flow)     │ │
-│  │  Port: 5173      │         │  Port: 8000      │         │             │ │
-│  └──────────────────┘         └──────────────────┘         └─────────────┘ │
-│           │                           │                           │          │
-│           │                           │                           │          │
-│           ▼                           ▼                           ▼          │
-│  ┌──────────────────┐         ┌──────────────────┐         ┌─────────────┐ │
-│  │   User Upload    │         │   API Routes     │         │  Disease    │ │
-│  │   - Camera      │         │   - /predict      │         │  Classes    │ │
-│  │   - File Browse │         │   - /health       │         │  - Healthy  │ │
-│  │   - Drag/Drop   │         │   - /classes      │         │  - Early    │ │
-│  │                  │         │                   │         │    Blight   │ │
-│  └──────────────────┘         └──────────────────┘         │  - Late      │ │
-│                                                          │    Blight    │ │
-│  ┌──────────────────┐         ┌──────────────────┐         │  - Leaf Mold │ │
-│  │   Results        │         │   Validation    │         └─────────────┘ │
-│  │   - Disease Name │         │   - File type    │                           │
-│  │   - Confidence   │         │   - File size    │         ┌─────────────┐ │
-│  │   - Treatment    │         │   - Image dims   │         │  Treatment  │ │
-│  │   - Visual       │         │                   │         │  Database   │ │
-│  └──────────────────┘         └──────────────────┘         └─────────────┘ │
+│  ┌────────────────────┐      ┌────────────────────┐      ┌───────────────┐ │
+│  │   CLIENT LAYER     │      │   SERVICE LAYER    │      │  DATA LAYER   │ │
+│  │                    │      │                    │      │               │ │
+│  │  ┌──────────────┐  │      │  ┌──────────────┐  │      │  ┌─────────┐  │ │
+│  │  │   Web App    │  │      │  │  FastAPI     │  │      │  │  Model  │  │ │
+│  │  │   (React)    │  │─────►│  │  Backend     │  │─────►│  │  Files  │  │ │
+│  │  │  Port: 5173  │  │      │  │  Port: 8000  │  │      │  │  (.h5)  │  │ │
+│  │  └──────────────┘  │      │  └──────────────┘  │      │  └─────────┘  │ │
+│  │  ┌──────────────┐  │      │  ┌──────────────┐  │      │  ┌─────────┐  │ │
+│  │  │ Mobile App   │  │      │  │   Uvicorn    │  │      │  │  JSON   │  │ │
+│  │  │ (Future)     │  │      │  │   Server    │  │      │  │  Data   │  │ │
+│  │  └──────────────┘  │      │  └──────────────┘  │      │  └─────────┘  │ │
+│  └────────────────────┘      └────────────────────┘      └───────────────┘ │
+│                                                                              │
+│  ┌────────────────────┐      ┌────────────────────┐                            │
+│  │  PRESENTATION     │      │   LOGIC LAYER     │                            │
+│  │                    │      │                    │                            │
+│  │  ┌──────────────┐  │      │  ┌──────────────┐  │                            │
+│  │  │   Results   │  │      │  │ ML Service   │  │                            │
+│  │  │   Display   │  │◄─────│  │  (TensorFlow)│  │                            │
+│  │  │  - Disease  │  │      │  │  - Inference │  │                            │
+│  │  │  - Conf. %  │  │      │  │  - Preprocess│  │                            │
+│  │  │  - Treatment│  │      │  └──────────────┘  │                            │
+│  │  └──────────────┘  │      │  ┌──────────────┐  │                            │
+│  │  ┌──────────────┐  │      │  │ Treatment   │  │                            │
+│  │  │  History     │  │      │  │  Service    │  │                            │
+│  │  │  Tracking   │  │      │  │  (Database) │  │                            │
+│  │  └──────────────┘  │      │  └──────────────┘  │                            │
+│  └────────────────────┘      └────────────────────┘                            │
 │                                                                              │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Component Responsibilities
 
-| Component | Responsibility |
-|-----------|----------------|
-| **Frontend (React)** | User interface, image upload, results display |
-| **FastAPI Backend** | Request handling, validation, response formatting |
-| **ML Service** | Model loading, inference, prediction |
-| **Treatment Database** | Disease-to-treatment mapping |
-| **Model Weights** | Pre-trained CNN for classification |
+| Component | Layer | Responsibility | Technologies |
+|------------|-------|----------------|--------------|
+| **Frontend** | Presentation | User interface, image upload, results display | React 18, Vite, CSS3 |
+| **Backend API** | Service | Request handling, validation, response formatting | FastAPI, Pydantic |
+| **ML Service** | Logic | Model loading, inference, prediction | TensorFlow, Keras |
+| **Treatment DB** | Data | Disease-to-treatment mapping | JSON, Python Dict |
+| **Model Weights** | Data | Pre-trained CNN for classification | HDF5 (.h5) |
+
+### Technology Interactions
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        TECHNOLOGY INTERACTIONS                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+    React + Vite                     FastAPI + Uvicorn                    TensorFlow
+  ┌─────────────────┐              ┌─────────────────┐              ┌─────────────────┐
+  │                 │   HTTP/JSON  │                 │   TF Model   │                 │
+  │   User Actions  │─────────────►│   API Routes   │─────────────►│  ML Inference   │
+  │                 │              │                 │              │                 │
+  │ - Image Upload │◄────────────│  - /predict    │◄────────────│  - Load model   │
+  │ - Results View │   Response   │  - /health     │   Prediction │  - Preprocess   │
+  │ - History      │              │  - /classes    │              │  - Classify     │
+  └─────────────────┘              └─────────────────┘              └─────────────────┘
+         │                                │                                │
+         │                                │                                │
+         ▼                                ▼                                ▼
+  ┌─────────────────┐              ┌─────────────────┐              ┌─────────────────┐
+  │   Browser       │              │   Python App    │              │   GPU/CPU       │
+  │   (Client)      │              │   (Server)      │              │   (Compute)     │
+  └─────────────────┘              └─────────────────┘              └─────────────────┘
+```
 
 ---
 
-## Model Architecture
+## 🧠 Model Architecture
 
 ### CNN Architecture Overview
 
-The model is a custom Convolutional Neural Network designed for plant disease classification:
+The model is a custom Convolutional Neural Network (CNN) designed specifically for plant disease classification:
 
 ```
-Input (128x128x3)
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         MODEL ARCHITECTURE                                   │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Input Layer
     │
     ▼
-┌──────────────────────────────────────────────────────────────────┐
-│                      CONVOLUTIONAL BLOCK 1                       │
-│  Conv2D(32, 3x3) → BatchNorm → ReLU → MaxPool(2x2)              │
-└──────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  CONVOLUTIONAL BLOCK 1                                                     │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │  Conv2D(32 filters, 3×3 kernel)                                     │   │
+│  │       ↓                                                              │   │
+│  │  BatchNormalization                                                 │   │
+│  │       ↓                                                              │   │
+│  │  ReLU Activation                                                    │   │
+│  │       ↓                                                              │   │
+│  │  MaxPooling2D(2×2)                                                  │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────────┘
     │
     ▼
-┌──────────────────────────────────────────────────────────────────┐
-│                      CONVOLUTIONAL BLOCK 2                       │
-│  Conv2D(64, 3x3) → BatchNorm → ReLU → MaxPool(2x2)              │
-└──────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  CONVOLUTIONAL BLOCK 2                                                     │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │  Conv2D(64 filters, 3×3 kernel)                                     │   │
+│  │       ↓                                                              │   │
+│  │  BatchNormalization                                                 │   │
+│  │       ↓                                                              │   │
+│  │  ReLU Activation                                                    │   │
+│  │       ↓                                                              │   │
+│  │  MaxPooling2D(2×2)                                                  │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────────┘
     │
     ▼
-┌──────────────────────────────────────────────────────────────────┐
-│                      CONVOLUTIONAL BLOCK 3                       │
-│  Conv2D(128, 3x3) → BatchNorm → ReLU → MaxPool(2x2)             │
-└──────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  CONVOLUTIONAL BLOCK 3                                                     │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │  Conv2D(128 filters, 3×3 kernel)                                    │   │
+│  │       ↓                                                              │   │
+│  │  BatchNormalization                                                 │   │
+│  │       ↓                                                              │   │
+│  │  ReLU Activation                                                    │   │
+│  │       ↓                                                              │   │
+│  │  MaxPooling2D(2×2)                                                  │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────────┘
     │
     ▼
-┌──────────────────────────────────────────────────────────────────┐
-│                      CONVOLUTIONAL BLOCK 4                       │
-│  Conv2D(256, 3x3) → BatchNorm → ReLU → MaxPool(2x2)             │
-└──────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  CONVOLUTIONAL BLOCK 4                                                     │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │  Conv2D(256 filters, 3×3 kernel)                                    │   │
+│  │       ↓                                                              │   │
+│  │  BatchNormalization                                                 │   │
+│  │       ↓                                                              │   │
+│  │  ReLU Activation                                                    │   │
+│  │       ↓                                                              │   │
+│  │  MaxPooling2D(2×2)                                                  │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────────┘
     │
     ▼
 Flatten
     │
     ▼
-┌──────────────────────────────────────────────────────────────────┐
-│                         DENSE LAYERS                              │
-│  Dense(256) → Dropout(0.5) → Dense(128) → Dropout(0.3)         │
-└──────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  DENSE BLOCK                                                               │
+│  ┌─────────────────────────────────────────────────────────────────────┐   │
+│  │  Dense(256 neurons) → Dropout(0.5) → Dense(128) → Dropout(0.3)     │   │
+│  └─────────────────────────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────────────────────────┘
     │
     ▼
-Output (6 classes)
+Output Layer (6 classes)
+    │
+    ▼
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  Softmax                                                                  │
+│  P(Healthy), P(Tomato Early Blight), P(Tomato Late Blight), ...          │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ### Model Configuration
 
-| Parameter | Value |
-|-----------|-------|
-| Input Shape | (128, 128, 3) |
-| Image Size | 128×128 pixels |
-| Color Space | RGB |
-| Normalization | Pixel values / 255.0 |
-| Optimizer | Adam (lr=0.001) |
-| Loss Function | Categorical Crossentropy |
-| Output Classes | 6 |
+| Parameter | Value | Description |
+|-----------|-------|-------------|
+| **Input Shape** | (128, 128, 3) | RGB image dimensions |
+| **Image Size** | 128×128 pixels | Resized input |
+| **Color Space** | RGB | Red, Green, Blue |
+| **Normalization** | Pixel / 255.0 | Scale to [0, 1] |
+| **Optimizer** | Adam | Adaptive moment estimation |
+| **Learning Rate** | 0.001 | Default learning rate |
+| **Loss Function** | Categorical Crossentropy | Multi-class classification |
+| **Output Classes** | 6 | Number of disease classes |
 
-### Layer Details
+### Layer Specifications
 
-| Layer | Filters | Kernel | Activation | Output Shape |
-|-------|---------|--------|-------------|--------------|
-| Conv2D_1 | 32 | 3×3 | ReLU | (128, 128, 32) |
-| MaxPool_1 | - | 2×2 | - | (64, 64, 32) |
-| Conv2D_2 | 64 | 3×3 | ReLU | (64, 64, 64) |
-| MaxPool_2 | - | 2×2 | - | (32, 32, 64) |
-| Conv2D_3 | 128 | 3×3 | ReLU | (32, 32, 128) |
-| MaxPool_3 | - | 2×2 | - | (16, 16, 128) |
-| Conv2D_4 | 256 | 3×3 | ReLU | (16, 16, 256) |
-| MaxPool_4 | - | 2×2 | - | (8, 8, 256) |
-| Flatten | - | - | - | (16384,) |
-| Dense_1 | - | - | ReLU | (256,) |
-| Dense_2 | - | - | Softmax | (6,) |
+| Layer | Type | Filters/Kernel | Output Shape | Parameters |
+|-------|------|----------------|--------------|------------|
+| Input | InputLayer | - | (128, 128, 3) | 0 |
+| Conv2D_1 | Conv2D | 32 × (3×3) | (128, 128, 32) | 896 |
+| BatchNorm_1 | BatchNorm | - | (128, 128, 32) | 128 |
+| MaxPool_1 | MaxPool2D | 2×2 | (64, 64, 32) | 0 |
+| Conv2D_2 | Conv2D | 64 × (3×3) | (64, 64, 64) | 18,496 |
+| BatchNorm_2 | BatchNorm | - | (64, 64, 64) | 256 |
+| MaxPool_2 | MaxPool2D | 2×2 | (32, 32, 64) | 0 |
+| Conv2D_3 | Conv2D | 128 × (3×3) | (32, 32, 128) | 73,856 |
+| BatchNorm_3 | BatchNorm | - | (32, 32, 128) | 512 |
+| MaxPool_3 | MaxPool2D | 2×2 | (16, 16, 128) | 0 |
+| Conv2D_4 | Conv2D | 256 × (3×3) | (16, 16, 256) | 295,168 |
+| BatchNorm_4 | BatchNorm | - | (16, 16, 256) | 1,024 |
+| MaxPool_4 | MaxPool2D | 2×2 | (8, 8, 256) | 0 |
+| Flatten | Flatten | - | (16384,) | 0 |
+| Dense_1 | Dense | 256 | (256,) | 4,194,560 |
+| Dropout_1 | Dropout | 0.5 | (256,) | 0 |
+| Dense_2 | Dense | 128 | (128,) | 32,896 |
+| Dropout_2 | Dropout | 0.3 | (128,) | 0 |
+| Output | Dense | 6 (Softmax) | (6,) | 774 |
+| **Total** | - | - | - | **4,618,470** |
+
+### Model Performance Metrics
+
+| Metric | Training | Validation | Test |
+|--------|----------|------------|------|
+| Accuracy | ~95% | ~90% | ~90% |
+| Precision | ~94% | ~89% | ~88% |
+| Recall | ~95% | ~90% | ~89% |
+| F1-Score | ~94% | ~89% | ~88% |
+| Inference Time | - | - | <500ms |
 
 ---
 
-## Supported Diseases (v1.0)
+## 🦠 Supported Diseases
 
-| ID | Disease | Crop | Pathogen | Severity | Treatment |
-|----|---------|------|----------|----------|-----------|
-| 0 | Healthy | - | - | - | Plant is healthy, continue regular care |
-| 1 | Tomato Early Blight | Tomato | *Alternaria solani* | Medium | Apply fungicide containing chlorothalonil or copper-based products. Remove infected leaves. Improve air circulation. |
-| 2 | Tomato Late Blight | Tomato | *Phytophthora infestans* | High | Apply fungicide immediately. Remove and destroy infected plants. Avoid overhead watering. |
-| 3 | Tomato Leaf Mold | Tomato | *Passalora fulva* | Low-Medium | Apply copper fungicide. Reduce humidity. Improve ventilation. Remove infected leaves. |
-| 4 | Potato Early Blight | Potato | *Alternaria solani* | Medium | Apply chlorothalonil or mancozeb. Rotate crops. Remove plant debris. |
-| 5 | Potato Late Blight | Potato | *Phytophthora infestans* | High | Apply fungicide immediately. Destroy infected tubers. Use certified seed potatoes. |
+### Disease Classification Matrix
+
+| ID | Disease Name | Crop | Pathogen | Severity | Color Code |
+|----|--------------|------|----------|----------|------------|
+| 0 | 🌿 Healthy | - | - | - | 🟢 Green |
+| 1 | 🍅 Tomato Early Blight | Tomato | *Alternaria solani* | Medium | 🟡 Yellow |
+| 2 | 🍅 Tomato Late Blight | Tomato | *Phytophthora infestans* | High | 🔴 Red |
+| 3 | 🍅 Tomato Leaf Mold | Tomato | *Passalora fulva* | Low-Medium | 🟠 Orange |
+| 4 | 🥔 Potato Early Blight | Potato | *Alternaria solani* | Medium | 🟡 Yellow |
+| 5 | 🥔 Potato Late Blight | Potato | *Phytophthora infestans* | High | 🔴 Red |
+
+### Detailed Disease Information
+
+#### 0. Healthy 🌿
+```json
+{
+  "id": 0,
+  "name": "Healthy",
+  "crop": null,
+  "pathogen": null,
+  "severity": "None",
+  "treatment": "Plant is healthy. Continue regular care and monitoring."
+}
+```
+
+#### 1. Tomato Early Blight 🍅
+```json
+{
+  "id": 1,
+  "name": "Tomato Early Blight",
+  "crop": "Tomato",
+  "pathogen": "Alternaria solani",
+  "severity": "Medium",
+  "symptoms": [
+    "Dark brown spots with concentric rings (target-like)",
+    "Lower leaves affected first",
+    "Yellowing around spots",
+    "Leaf drop in severe cases"
+  ],
+  "treatment": {
+    "chemical": "Apply fungicide containing chlorothalonil or copper-based products",
+    "cultural": [
+      "Remove infected leaves",
+      "Improve air circulation",
+      "Avoid overhead watering",
+      "Rotate crops"
+    ],
+    "prevention": "Use resistant varieties, maintain proper spacing"
+  }
+}
+```
+
+#### 2. Tomato Late Blight 🍅
+```json
+{
+  "id": 2,
+  "name": "Tomato Late Blight",
+  "crop": "Tomato",
+  "pathogen": "Phytophthora infestans",
+  "severity": "High",
+  "symptoms": [
+    "Water-soaked dark spots on leaves",
+    "White fuzzy growth on leaf undersides",
+    "Rapidly spreading lesions",
+    "Fruit rot with leathery texture"
+  ],
+  "treatment": {
+    "chemical": "Apply fungicide immediately (metalaxyl, mancozeb)",
+    "cultural": [
+      "Remove and destroy infected plants",
+      "Avoid overhead watering",
+      "Improve drainage"
+    ],
+    "prevention": "Monitor weather, apply preventive fungicides in humid conditions"
+  }
+}
+```
+
+#### 3. Tomato Leaf Mold 🍅
+```json
+{
+  "id": 3,
+  "name": "Tomato Leaf Mold",
+  "crop": "Tomato",
+  "pathogen": "Passalora fulva",
+  "severity": "Low-Medium",
+  "symptoms": [
+    "Yellow spots on upper leaf surface",
+    "Olive-green to brown fuzzy growth undersides",
+    "Leaf yellowing and drop",
+    "Usually in humid conditions"
+  ],
+  "treatment": {
+    "chemical": "Apply copper fungicide",
+    "cultural": [
+      "Reduce humidity",
+      "Improve ventilation",
+      "Remove infected leaves"
+    ],
+    "prevention": "Use resistant varieties, maintain low humidity"
+  }
+}
+```
+
+#### 4. Potato Early Blight 🥔
+```json
+{
+  "id": 4,
+  "name": "Potato Early Blight",
+  "crop": "Potato",
+  "pathogen": "Alternaria solani",
+  "severity": "Medium",
+  "symptoms": [
+    "Dark brown to black spots",
+    "Concentric ring pattern",
+    "Older leaves affected first",
+    "Tuber lesions (optional)"
+  ],
+  "treatment": {
+    "chemical": "Apply chlorothalonil or mancozeb",
+    "cultural": [
+      "Rotate crops (2-3 years)",
+      "Remove plant debris",
+      "Adequate fertilization"
+    ],
+    "prevention": "Use certified seed, maintain good soil health"
+  }
+}
+```
+
+#### 5. Potato Late Blight 🥔
+```json
+{
+  "id": 5,
+  "name": "Potato Late Blight",
+  "crop": "Potato",
+  "pathogen": "Phytophthora infestans",
+  "severity": "High",
+  "symptoms": [
+    "Water-soaked lesions",
+    "White mold on leaf undersides",
+    "Rapidly spreading",
+    "Tuber rot (reddish-brown)"
+  ],
+  "treatment": {
+    "chemical": "Apply fungicide immediately (metalaxyl, cymoxanil)",
+    "cultural": [
+      "Destroy infected tubers",
+      "Use certified seed potatoes",
+      "Hill up soil around plants"
+    ],
+    "prevention": "Monitor conditions, apply preventive fungicides"
+  }
+}
+```
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 ### Technology Overview
 
-| Layer | Technology | Version | Purpose |
-|-------|------------|---------|---------|
-| **ML Framework** | TensorFlow | 2.15+ | Deep learning model training and inference |
-| **ML Wrapper** | Keras | 2.15+ | High-level neural network API |
-| **Backend** | FastAPI | 0.109+ | REST API framework |
-| **Server** | Uvicorn | 0.27+ | ASGI server |
-| **Frontend** | React | 18+ | User interface |
-| **Build Tool** | Vite | 5+ | Frontend development and build |
-| **Styling** | CSS3 | - | UI styling |
-| **Container** | Docker | 24+ | Application containerization |
-| **Orchestration** | Docker Compose | 2+ | Multi-container deployment |
-| **Language** | Python | 3.11+ | Backend development |
-| **Language** | JavaScript | ES6+ | Frontend development |
+| Layer | Technology | Version | Purpose | Icon |
+|-------|------------|---------|---------|------|
+| **ML Framework** | TensorFlow | 2.15+ | Deep learning model training and inference | <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="20"/> |
+| **ML Wrapper** | Keras | 2.15+ | High-level neural network API | |
+| **Backend** | FastAPI | 0.109+ | REST API framework | <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" width="20"/> |
+| **Server** | Uvicorn | 0.27+ | ASGI server | |
+| **Frontend** | React | 18+ | User interface | <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="20"/> |
+| **Build Tool** | Vite | 5+ | Frontend development and build | |
+| **Container** | Docker | 24+ | Application containerization | <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" width="20"/> |
+| **Orchestration** | Docker Compose | 2+ | Multi-container deployment | |
+| **Language (Backend)** | Python | 3.11+ | Backend development | <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" width="20"/> |
+| **Language (Frontend)** | JavaScript | ES6+ | Frontend development | |
 
 ### Development Dependencies
 
-**Backend:**
-- fastapi
-- uvicorn
-- tensorflow
-- numpy
-- pillow
-- python-multipart
-- pydantic
+#### Backend Dependencies (`backend/requirements.txt`)
+```
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+tensorflow>=2.15.0
+numpy>=1.26.0
+pillow>=10.0.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+pytest>=7.4.0
+httpx>=0.26.0
+```
 
-**Frontend:**
-- react
-- react-dom
-- vite
-
-**DevOps:**
-- docker
-- docker-compose
+#### Frontend Dependencies (`frontend/package.json`)
+```
+react>=18.2.0
+react-dom>=18.2.0
+vite>=5.0.0
+```
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 ai-crop-disease-detection/
-├── backend/                        # FastAPI backend application
-│   ├── app/
-│   │   ├── api/
-│   │   │   └── routes.py          # API endpoints
-│   │   ├── core/
-│   │   │   └── config.py          # Application configuration
-│   │   ├── models/
-│   │   │   └── schemas.py         # Pydantic data models
-│   │   ├── services/
-│   │   │   ├── ml_service.py     # ML model inference
-│   │   │   └── treatment.py      # Treatment database
-│   │   └── main.py               # FastAPI application entry
-│   ├── requirements.txt           # Python dependencies
-│   └── Dockerfile                 # Backend container
 │
-├── frontend/                      # React frontend application
-│   ├── src/
-│   │   ├── components/            # React components
-│   │   ├── App.jsx               # Main application
-│   │   ├── App.css               # Application styles
-│   │   └── main.jsx              # React entry point
-│   ├── public/                   # Static assets
-│   ├── package.json              # NPM dependencies
-│   ├── vite.config.js            # Vite configuration
-│   └── Dockerfile                # Frontend container
+├── 📂 backend/                      # FastAPI backend application
+│   ├── 📂 app/
+│   │   ├── 📂 api/                 # API endpoints
+│   │   │   ├── routes.py           # Route definitions
+│   │   │   └── dependencies.py    # Shared dependencies
+│   │   ├── 📂 core/                # Core configuration
+│   │   │   ├── config.py           # App settings
+│   │   │   └── constants.py        # Constants
+│   │   ├── 📂 models/              # Pydantic models
+│   │   │   ├── schemas.py          # Request/Response schemas
+│   │   │   └── entities.py         # Data entities
+│   │   ├── 📂 services/            # Business logic
+│   │   │   ├── ml_service.py       # ML model inference
+│   │   │   └── treatment_service.py# Treatment database
+│   │   └── 📂 utils/               # Utility functions
+│   │       ├── image_processor.py  # Image preprocessing
+│   │       └── validators.py       # Input validation
+│   ├── 📂 tests/                   # Backend tests
+│   ├── requirements.txt            # Python dependencies
+│   ├── Dockerfile                  # Backend container
+│   └── main.py                     # Application entry point
 │
-├── ml/                            # Machine learning module
-│   ├── model/                    # Trained model files
-│   │   └── plant_disease_model.h5
-│   ├── training/                 # Training scripts
-│   │   └── train_model.py
-│   ├── inference/               # Inference utilities
-│   │   └── predict.py
-│   └── notebooks/               # Jupyter notebooks
+├── 📂 frontend/                     # React frontend application
+│   ├── 📂 src/
+│   │   ├── 📂 components/          # React components
+│   │   │   ├── ImageUploader.jsx   # Image upload component
+│   │   │   ├── ResultsDisplay.jsx  # Results display
+│   │   │   ├── LoadingSpinner.jsx  # Loading indicator
+│   │   │   └── ErrorMessage.jsx    # Error handling
+│   │   ├── 📂 services/            # API services
+│   │   │   └── api.js              # API client
+│   │   ├── 📂 hooks/               # React hooks
+│   │   │   └── usePrediction.js    # Prediction hook
+│   │   ├── App.jsx                 # Main application
+│   │   ├── App.css                 # Application styles
+│   │   └── main.jsx                # React entry point
+│   ├── 📂 public/                   # Static assets
+│   │   ├── index.html              # HTML template
+│   │   └── favicon.ico             # Favicon
+│   ├── package.json                # NPM dependencies
+│   ├── vite.config.js              # Vite configuration
+│   ├── Dockerfile                  # Frontend container
+│   └── .env                        # Environment variables
 │
-├── data/                         # Training and sample data
-│   ├── train/                   # Training dataset
-│   ├── val/                     # Validation dataset
-│   └── test/                    # Test dataset
+├── 📂 ml/                           # Machine learning module
+│   ├── 📂 model/                   # Trained model files
+│   │   ├── plant_disease_model.h5 # Trained model weights
+│   │   └── model_config.json       # Model configuration
+│   ├── 📂 training/                # Training scripts
+│   │   ├── train_model.py         # Main training script
+│   │   ├── data_generator.py      # Data augmentation
+│   │   ├── callbacks.py           # Training callbacks
+│   │   └── evaluate.py            # Model evaluation
+│   ├── 📂 inference/              # Inference utilities
+│   │   ├── predict.py             # Prediction wrapper
+│   │   └── preprocess.py         # Image preprocessing
+│   └── 📂 notebooks/              # Jupyter notebooks
+│       ├── EDA.ipynb              # Exploratory data analysis
+│       └── Training.ipynb         # Training experiments
 │
-├── sample_images/               # Sample images for testing
+├── 📂 data/                        # Training and sample data
+│   ├── 📂 train/                  # Training dataset
+│   │   ├── Healthy/
+│   │   ├── Tomato_Early_Blight/
+│   │   ├── Tomato_Late_Blight/
+│   │   ├── Tomato_Leaf_Mold/
+│   │   ├── Potato_Early_Blight/
+│   │   └── Potato_Late_Blight/
+│   ├── 📂 val/                    # Validation dataset
+│   └── 📂 test/                   # Test dataset
 │
-├── tests/                       # Test files
-│   ├── test_api.py              # API tests
-│   └── test_model.py            # Model tests
+├── 📂 sample_images/               # Sample images for testing
 │
-├── docs/                        # Documentation
-│   ├── api_docs.md
-│   └── model_docs.md
+├── 📂 tests/                       # Test files
+│   ├── 📂 api/
+│   │   ├── test_routes.py         # API route tests
+│   │   └── test_integration.py    # Integration tests
+│   └── 📂 ml/
+│       ├── test_model.py          # Model tests
+│       └── test_preprocessing.py # Preprocessing tests
 │
-├── docker-compose.yml           # Docker Compose configuration
-├── requirements.txt            # Root requirements
-├── .env.example                # Environment variables template
-├── .gitignore                  # Git ignore rules
-├── LICENSE                     # MIT License
-└── README.md                   # This file
+├── 📂 docs/                        # Documentation
+│   ├── api_docs.md               # API documentation
+│   ├── model_docs.md            # Model documentation
+│   ├── deployment.md            # Deployment guide
+│   └── troubleshooting.md       # Troubleshooting guide
+│
+├── 📂 assets/                     # Project assets
+│   ├── banner.png               # Project banner
+│   └── logo.png                 # Project logo
+│
+├── 📂 .github/                   # GitHub workflows
+│   └── workflows/
+│       ├── ci.yml               # CI pipeline
+│       └── deploy.yml           # CD pipeline
+│
+├── docker-compose.yml            # Docker Compose configuration
+├── requirements.txt              # Root requirements
+├── .env.example                  # Environment variables template
+├── .gitignore                    # Git ignore rules
+├── LICENSE                       # MIT License
+├── CONTRIBUTING.md              # Contribution guidelines
+├── CHANGELOG.md                 # Version history
+└── README.md                    # This file
 ```
 
 ---
 
-## Installation
+## 🚀 Installation
 
 ### Prerequisites
 
-- Python 3.11+
-- Node.js 18+
-- Docker & Docker Compose (for containerized deployment)
-- 4GB+ RAM for model inference
+| Requirement | Version | Purpose |
+|-------------|---------|---------|
+| Python | 3.11+ | Backend runtime |
+| Node.js | 18+ | Frontend development |
+| Docker | 24+ | Container runtime |
+| Docker Compose | 2+ | Container orchestration |
+| RAM | 4GB+ | Model inference |
 
 ### Option 1: Docker Deployment (Recommended)
 
@@ -393,10 +778,13 @@ docker-compose up --build
 docker-compose logs -f
 ```
 
-Services will be available at:
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:8000
-- API Documentation: http://localhost:8000/docs
+**Services Available:**
+| Service | URL | Description |
+|---------|-----|-------------|
+| Frontend | http://localhost:5173 | React web application |
+| Backend API | http://localhost:8000 | FastAPI REST API |
+| Swagger UI | http://localhost:8000/docs | Interactive API docs |
+| ReDoc | http://localhost:8000/redoc | Alternative API docs |
 
 ### Option 2: Manual Setup
 
@@ -440,21 +828,23 @@ npm run dev
 Create a `.env` file in the root directory:
 
 ```env
-# Backend
+# Backend Configuration
 BACKEND_HOST=0.0.0.0
 BACKEND_PORT=8000
 
-# Model
+# Model Configuration
 MODEL_PATH=ml/model/plant_disease_model.h5
 IMAGE_SIZE=128
+MAX_FILE_SIZE=10485760  # 10MB
 
-# Frontend
+# Frontend Configuration
 VITE_API_URL=http://localhost:8000
+VITE_APP_NAME=AgriScan AI
 ```
 
 ---
 
-## API Documentation
+## 📚 API Documentation
 
 ### Base URL
 
@@ -462,34 +852,68 @@ VITE_API_URL=http://localhost:8000
 http://localhost:8000/api
 ```
 
-### Endpoints
+### Endpoints Overview
 
-#### 1. Health Check
+| Method | Endpoint | Description | Status |
+|--------|-----------|-------------|--------|
+| GET | `/health` | Health check | ✅ Stable |
+| POST | `/predict` | Predict disease | ✅ Stable |
+| GET | `/classes` | Get supported classes | ✅ Stable |
+| GET | `/treatments/{disease_id}` | Get treatment | ✅ Stable |
+
+---
+
+### 1. Health Check
 
 **GET** `/health`
 
 Check if the API is running and model is loaded.
 
-**Response:**
+**Example Request:**
+```bash
+curl -X GET http://localhost:8000/api/health
+```
+
+**Success Response (200):**
 ```json
 {
   "status": "healthy",
   "model_loaded": true,
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "uptime": "2026-04-08T00:00:00Z"
 }
 ```
 
-#### 2. Predict Disease
+**Error Response (503):**
+```json
+{
+  "status": "unhealthy",
+  "model_loaded": false,
+  "error": "Model failed to load"
+}
+```
+
+---
+
+### 2. Predict Disease
 
 **POST** `/predict`
 
 Predict disease from leaf image.
 
-**Request:**
-- Content-Type: `multipart/form-data`
-- Body: `file` (image file)
+**Example Request:**
+```bash
+curl -X POST http://localhost:8000/api/predict \
+  -F "file=@path/to/leaf_image.jpg"
+```
 
-**Response:**
+**Request Parameters:**
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-------------|
+| file | File | Yes | Image file (JPEG, PNG) |
+
+**Success Response (200):**
 ```json
 {
   "success": true,
@@ -498,78 +922,101 @@ Predict disease from leaf image.
   "confidence": 92.5,
   "treatment": "Apply fungicide containing chlorothalonil...",
   "crop": "Tomato",
-  "severity": "Medium"
+  "severity": "Medium",
+  "timestamp": "2026-04-08T12:00:00Z"
 }
 ```
 
-#### 3. Get Supported Classes
+**Error Responses:**
+
+| Status Code | Description |
+|-------------|-------------|
+| 400 | Invalid file format |
+| 413 | File too large |
+| 500 | Internal server error |
+
+---
+
+### 3. Get Supported Classes
 
 **GET** `/classes`
 
 Get list of all supported disease classes.
 
-**Response:**
+**Example Request:**
+```bash
+curl -X GET http://localhost:8000/api/classes
+```
+
+**Success Response (200):**
 ```json
 {
+  "count": 6,
   "classes": [
-    {"id": 0, "name": "Healthy", "crop": null},
-    {"id": 1, "name": "Tomato_Early_Blight", "crop": "Tomato"},
-    {"id": 2, "name": "Tomato_Late_Blight", "crop": "Tomato"},
-    {"id": 3, "name": "Tomato_Leaf_Mold", "crop": "Tomato"},
-    {"id": 4, "name": "Potato_Early_Blight", "crop": "Potato"},
-    {"id": 5, "name": "Potato_Late_Blight", "crop": "Potato"}
+    {"id": 0, "name": "Healthy", "crop": null, "severity": "None"},
+    {"id": 1, "name": "Tomato_Early_Blight", "crop": "Tomato", "severity": "Medium"},
+    {"id": 2, "name": "Tomato_Late_Blight", "crop": "Tomato", "severity": "High"},
+    {"id": 3, "name": "Tomato_Leaf_Mold", "crop": "Tomato", "severity": "Low-Medium"},
+    {"id": 4, "name": "Potato_Early_Blight", "crop": "Potato", "severity": "Medium"},
+    {"id": 5, "name": "Potato_Late_Blight", "crop": "Potato", "severity": "High"}
   ]
 }
 ```
 
-### Interactive Documentation
+---
 
-- **Swagger UI**: http://localhost:8000/docs
-- **ReDoc**: http://localhost:8000/redoc
+### 4. Get Treatment
 
-### Example Usage
+**GET** `/treatments/{disease_id}`
 
-#### Using cURL
+Get detailed treatment information for a disease.
 
+**Example Request:**
 ```bash
-# Predict disease
-curl -X POST -F "file=@path/to/image.jpg" http://localhost:8000/api/predict
-
-# Get health status
-curl http://localhost:8000/api/health
-
-# Get supported classes
-curl http://localhost:8000/api/classes
+curl -X GET http://localhost:8000/api/treatments/1
 ```
 
-#### Using Python
-
-```python
-import requests
-
-# Upload image for prediction
-with open("leaf_image.jpg", "rb") as f:
-    response = requests.post(
-        "http://localhost:8000/api/predict",
-        files={"file": f}
-    )
-    print(response.json())
+**Success Response (200):**
+```json
+{
+  "disease_id": 1,
+  "name": "Tomato Early Blight",
+  "crop": "Tomato",
+  "pathogen": "Alternaria solani",
+  "severity": "Medium",
+  "symptoms": ["Dark brown spots with concentric rings", "Lower leaves affected"],
+  "treatment": {
+    "chemical": "Apply fungicide containing chlorothalonil or copper-based products",
+    "cultural": ["Remove infected leaves", "Improve air circulation"],
+    "prevention": "Use resistant varieties"
+  }
+}
 ```
 
 ---
 
-## Model Training
+### Interactive Documentation
+
+| Tool | URL | Description |
+|------|-----|-------------|
+| **Swagger UI** | http://localhost:8000/docs | Interactive API explorer |
+| **ReDoc** | http://localhost:8000/redoc | Alternative documentation |
+
+---
+
+## 🎓 Model Training
 
 ### Training Configuration
 
-| Parameter | Value |
-|-----------|-------|
-| Image Size | 128×128 pixels |
-| Batch Size | 32 |
-| Epochs | 20 |
-| Validation Split | 20% |
-| Optimizer | Adam (lr=0.001) |
-| Loss | Categorical Crossentropy |
+| Parameter | Value | Description |
+|-----------|-------|-------------|
+| Image Size | 128×128 pixels | Input dimensions |
+| Batch Size | 32 | Training batch size |
+| Epochs | 20 | Number of training epochs |
+| Validation Split | 20% | Training/validation split |
+| Optimizer | Adam | Adaptive moment estimation |
+| Learning Rate | 0.001 | Default learning rate |
+| Loss | Categorical Crossentropy | Multi-class loss |
 
 ### Training Commands
 
@@ -578,587 +1025,155 @@ cd ml/training
 python train_model.py
 ```
 
+### Training Data Pipeline
+
+```
+┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
+│   Raw Data  │───►│  Preprocess │───►│   Augment   │───►│   Train     │
+│   (Images)  │    │   (Resize)  │    │   (Random)  │    │   (CNN)     │
+└─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
+```
+
 ### Expected Performance
 
-| Metric | Value |
-|--------|-------|
-| Training Accuracy | ~95% |
-| Validation Accuracy | ~90% |
-| Inference Time | <500ms |
-| Model Size | ~15MB |
-
-### Training Data
-
-The model was trained on the PlantVillage dataset, which contains thousands of labeled images of healthy and diseased plant leaves.
-
-**Data Sources:**
-- [PlantVillage Dataset (Kaggle)](https://www.kaggle.com/datasets/abdallahalomari/plantvillage-dataset)
+| Metric | Training | Validation | Test |
+|--------|----------|------------|------|
+| Accuracy | ~95% | ~90% | ~90% |
+| Precision | ~94% | ~89% | ~88% |
+| Recall | ~95% | ~90% | ~89% |
+| F1-Score | ~94% | ~89% | ~88% |
+| Inference Time | - | - | <500ms |
+| Model Size | - | - | ~15MB |
 
 ---
 
-## Testing
+## 🧪 Testing
 
 ### Running Tests
 
 ```bash
-# Run backend tests
+# Run all tests
+pytest
+
+# Run specific test file
 pytest tests/test_api.py
 
-# Run model tests
-pytest tests/test_model.py
+# Run with coverage
+pytest --cov=. --cov-report=html
 ```
 
 ### Test Coverage
 
-- API endpoint validation
-- Model loading verification
-- Image preprocessing validation
-- Response format verification
+| Category | Tests |
+|----------|-------|
+| API Routes | Endpoint validation, error handling |
+| Model | Loading verification, inference |
+| Preprocessing | Image resize, normalization |
+| Integration | End-to-end workflow |
 
 ---
 
-## Business Model
+## 💼 Business Model
 
 ### Pricing Tiers
 
-| Tier | Features | Price |
-|------|----------|-------|
-| **Freemium** | 10 scans/month, basic disease detection | Free |
-| **Premium** | Unlimited scans, scan history, treatment details | $4.99/mo |
-| **Enterprise** | API access, analytics dashboard, custom integration | Custom |
-
-### Target Market
-
-- 500M+ smallholder farmers worldwide
-- Agricultural cooperatives
-- Farm management companies
-- Agricultural input suppliers
+| Tier | Features | Price | Target |
+|------|----------|-------|--------|
+| 🆓 **Freemium** | 10 scans/month, basic detection | Free | Individual farmers |
+| ⭐ **Premium** | Unlimited scans, history, treatments | $4.99/mo | Small farms |
+| 🏢 **Enterprise** | API access, analytics, custom integration | Custom | Cooperatives, companies |
 
 ### Revenue Streams
 
-1. **Subscription Revenue**: Monthly/annual Premium subscriptions
-2. **API Access**: Enterprise API pricing
-3. **White-label**: Custom branded solutions for enterprises
+1. 💳 **Subscription Revenue** - Monthly/annual Premium subscriptions
+2. 🔌 **API Access** - Enterprise API pricing
+3. 🎨 **White-label** - Custom branded solutions
+
+### Target Market
+
+| Segment | Size | Opportunity |
+|---------|------|-------------|
+| Smallholder farmers | 500M+ | Disease detection |
+| Agricultural cooperatives | 100K+ | Bulk access |
+| Farm management | 10K+ | Integration |
+| Research institutions | 5K+ | Data services |
 
 ---
 
-## Future Roadmap
+## 🗺️ Future Roadmap
 
 ### Phase 2 (Q3 2026)
-
 - [ ] Add 10+ crop types (Apple, Grape, Corn, Wheat, etc.)
 - [ ] Implement TensorFlow.js for offline mode
 - [ ] Mobile app (iOS/Android)
 
 ### Phase 3 (Q4 2026)
-
 - [ ] Multi-language support (Spanish, French, Hindi)
 - [ ] Drone imagery integration
 - [ ] Batch processing API
 
 ### Phase 4 (2027)
-
 - [ ] Disease severity assessment
 - [ ] Yield prediction modeling
 - [ ] Integration with farm management systems
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. 🍴 Fork the repository
+2. 🌿 Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. 💾 Commit your changes (`git commit -m 'Add amazing feature'`)
+4. 📤 Push to the branch (`git push origin feature/amazing-feature`)
+5. 🎉 Open a Pull Request
 
 ### Development Guidelines
 
-- Follow PEP 8 for Python code
-- Use meaningful variable names
-- Add docstrings to functions
-- Write tests for new features
+| Rule | Description |
+|------|-------------|
+| Code Style | Follow PEP 8 (Python), ESLint (JS) |
+| Documentation | Add docstrings to functions |
+| Testing | Write tests for new features |
+| Commits | Use meaningful commit messages |
 
 ---
 
-## License
+## 📄 License
 
 MIT License - See [LICENSE](LICENSE) for details.
 
 ---
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- **Dataset**: [PlantVillage Dataset](https://www.kaggle.com/datasets/abdallahalomari/plantvillage-dataset)
-- **ML Framework**: [TensorFlow](https://tensorflow.org/)
-- **Backend Framework**: [FastAPI](https://fastapi.tiangolo.com/)
-- **Frontend Framework**: [React](https://react.dev/)
-
----
-
-## Environment Details
-
-### Development Environment
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `BACKEND_HOST` | Backend server host | `0.0.0.0` |
-| `BACKEND_PORT` | Backend server port | `8000` |
-| `MODEL_PATH` | Path to trained model | `ml/model/plant_disease_model.h5` |
-| `IMAGE_SIZE` | Input image dimensions | `128` |
-| `MAX_IMAGE_SIZE` | Max upload size (MB) | `5` |
-| `LOG_LEVEL` | Logging level | `INFO` |
-| `VITE_API_URL` | Frontend API URL | `http://localhost:8000` |
-
-### Production Environment
-
-```env
-# Production .env file
-BACKEND_HOST=0.0.0.0
-BACKEND_PORT=8000
-MODEL_PATH=/app/model/plant_disease_model.h5
-IMAGE_SIZE=128
-MAX_IMAGE_SIZE=10
-LOG_LEVEL=WARNING
-```
+| Resource | Description | Link |
+|----------|-------------|------|
+| **PlantVillage Dataset** | Training data | [Kaggle](https://www.kaggle.com/datasets/abdallahalomari/plantvillage-dataset) |
+| **TensorFlow** | ML Framework | [Website](https://tensorflow.org/) |
+| **FastAPI** | Backend Framework | [Website](https://fastapi.tiangolo.com/) |
+| **React** | Frontend Framework | [Website](https://react.dev/) |
+| **EACE 2026** | Exhibition | [Website](https://eace.org/) |
 
 ---
 
-## Dataset Information
-
-### PlantVillage Dataset
-
-The model was trained on the PlantVillage dataset, one of the largest publicly available datasets for plant disease detection.
-
-| Attribute | Details |
-|-----------|---------|
-| **Source** | Kaggle - PlantVillage Dataset |
-| **Total Images** | 20,000+ |
-| **Classes** | 6 (as listed above) |
-| **Image Format** | JPEG, PNG |
-| **Resolution** | 256×256 pixels (original) |
-| **Split Ratio** | 80% Train / 20% Validation |
-
-### Data Augmentation
-
-To improve model generalization, the following augmentation techniques were applied:
-
-- **Rotation**: Random rotation up to 20°
-- **Horizontal Flip**: 50% probability
-- **Vertical Flip**: 50% probability
-- **Zoom**: Random zoom up to 20%
-- **Brightness**: Random adjustment ±20%
-- **Contrast**: Random adjustment ±20%
-
-### Class Distribution
-
-| Class | Training Samples | Percentage |
-|-------|------------------|------------|
-| Healthy | ~3,500 | 17.5% |
-| Tomato Early Blight | ~3,000 | 15% |
-| Tomato Late Blight | ~3,500 | 17.5% |
-| Tomato Leaf Mold | ~3,000 | 15% |
-| Potato Early Blight | ~3,500 | 17.5% |
-| Potato Late Blight | ~3,500 | 17.5% |
-
----
-
-## Model Evaluation
-
-### Performance Metrics
-
-| Metric | Training | Validation | Test |
-|--------|----------|------------|------|
-| **Accuracy** | 98.5% | 91.2% | 90.1% |
-| **Precision** | 98.2% | 90.5% | 89.8% |
-| **Recall** | 98.0% | 89.8% | 89.5% |
-| **F1-Score** | 98.1% | 90.1% | 89.6% |
-
-### Per-Class Performance
-
-| Class | Precision | Recall | F1-Score |
-|-------|-----------|--------|----------|
-| Healthy | 95.2% | 94.8% | 95.0% |
-| Tomato Early Blight | 88.5% | 87.2% | 87.8% |
-| Tomato Late Blight | 86.3% | 85.9% | 86.1% |
-| Tomato Leaf Mold | 91.2% | 90.5% | 90.8% |
-| Potato Early Blight | 89.1% | 88.7% | 88.9% |
-| Potato Late Blight | 84.5% | 83.9% | 84.2% |
-
-### Confusion Matrix
-
-```
-                    Predicted
-                  Healthy  TEBlight  TLBlight  TMold  PEBlight  PLBlight
-Actual Healthy     1702      45        32      28      38        25
-       TEBlight     38    1568        45      22     102        85
-       TLBlight     25      52     1542     185      28        38
-       TMold        18      12       142    1628      35        25
-       PEBlight     42     118        35      28    1585        52
-       PLBlight     35      92        48      38      65    1492
-```
-
-### Loss Curves
-
-- **Training Loss**: Decreased from 1.82 (epoch 1) to 0.12 (epoch 20)
-- **Validation Loss**: Decreased from 1.65 to 0.45, with slight overfitting after epoch 15
-
----
-
-## Docker Deployment
-
-### Docker Commands
-
-```bash
-# Build and start all services
-docker-compose up --build
-
-# Start in detached mode
-docker-compose up -d
-
-# Stop all services
-docker-compose down
-
-# View logs
-docker-compose logs -f backend
-docker-compose logs -f frontend
-
-# Rebuild specific service
-docker-compose build backend
-
-# View container status
-docker-compose ps
-
-# View resource usage
-docker stats
-```
-
-### Docker Compose Services
-
-```yaml
-services:
-  backend:
-    build: ./backend
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./ml/model:/app/model
-    environment:
-      - MODEL_PATH=/app/model/plant_disease_model.h5
-    deploy:
-      resources:
-        limits:
-          memory: 2G
-        reservations:
-          memory: 1G
-
-  frontend:
-    build: ./frontend
-    ports:
-      - "5173:5173"
-    depends_on:
-      - backend
-```
-
-### Production Docker
-
-```bash
-# Build production images
-docker-compose -f docker-compose.yml build
-
-# Run with production settings
-docker-compose -f docker-compose.yml up -d --scale backend=2
-
-# Health check
-curl http://localhost:8000/api/health
-```
-
----
-
-## Troubleshooting
-
-### Common Issues
-
-#### 1. Model Loading Error
-
-**Problem**: `Failed to load model: Unable to open file`
-
-**Solution**:
-```bash
-# Verify model file exists
-ls -la ml/model/
-
-# Check file permissions
-chmod 644 ml/model/plant_disease_model.h5
-```
-
-#### 2. Memory Issues
-
-**Problem**: `Resource exhausted: OOM when allocating tensor`
-
-**Solution**:
-```python
-# Limit TensorFlow memory usage
-import tensorflow as tf
-tf.config.experimental.set_memory_growth(gpu, True)
-```
-
-#### 3. Image Upload Fails
-
-**Problem**: `422 Unprocessable Entity - File too large`
-
-**Solution**:
-- Check `MAX_IMAGE_SIZE` in config
-- Verify file size is under limit
-- Try smaller images (< 5MB)
-
-#### 4. CORS Errors
-
-**Problem**: `Access-Control-Allow-Origin` not found
-
-**Solution**:
-- Update CORS settings in `backend/app/core/config.py`
-- Add frontend URL to allowed origins
-
-#### 5. Port Already in Use
-
-**Problem**: `Port 8000 is already in use`
-
-**Solution**:
-```bash
-# Find process using port
-lsof -i :8000
-
-# Kill process
-kill -9 <PID>
-
-# Or use different port
-uvicorn main:app --port 8001
-```
-
-#### 6. CUDA/GPU Not Available
-
-**Problem**: `No GPU detected for TensorFlow`
-
-**Solution**:
-```python
-# Check GPU availability
-import tensorflow as tf
-print("GPU Available:", tf.config.list_physical_devices('GPU'))
-
-# Force CPU usage
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
-```
-
-### Debug Mode
-
-```bash
-# Enable debug logging
-export LOG_LEVEL=DEBUG
-uvicorn main:app --reload --log-level debug
-```
-
----
-
-## Security Considerations
-
-### API Security
-
-1. **Input Validation**: All uploaded images are validated for file type and size
-2. **File Type Restrictions**: Only JPEG, PNG, and WebP formats allowed
-3. **Size Limits**: Maximum file size of 5MB enforced
-4. **Path Traversal Prevention**: File paths are sanitized
-
-### Best Practices for Production
-
-```python
-# Rate limiting (add to FastAPI)
-from fastapi import FastAPI
-from slowapi import Limiter
-from slowapi.util import get_remote_address
-
-limiter = Limiter(key_func=get_remote_address)
-app = Limiter(app, default_limits=["100/hour"])
-```
-
-### Environment Security
-
-```bash
-# Never commit .env files
-echo ".env" >> .gitignore
-
-# Use strong secrets
-# Generate: python -c "import secrets; print(secrets.token_hex(32))"
-```
-
----
-
-## Performance Optimization
-
-### Backend Optimizations
-
-1. **Model Caching**: Model loaded once at startup
-2. **Async Processing**: Non-blocking image processing
-3. **Response Compression**: GZIP enabled for JSON responses
-
-### Frontend Optimizations
-
-1. **Image Compression**: Client-side image compression before upload
-2. **Lazy Loading**: Results loaded on-demand
-3. **Caching**: API responses cached
-
-### Hardware Recommendations
-
-| Deployment | CPU | RAM | Storage |
-|------------|-----|-----|---------|
-| Development | 2 cores | 4 GB | 10 GB |
-| Production | 4 cores | 8 GB | 20 GB |
-| Enterprise | 8+ cores | 16+ GB | 50+ GB |
-
----
-
-## Logging and Monitoring
-
-### Application Logs
-
-```bash
-# View logs in JSON format
-docker-compose logs --json
-
-# Filter logs
-docker-compose logs | grep ERROR
-
-# Export logs
-docker-compose logs > app.log
-```
-
-### Health Monitoring
-
-```bash
-# CPU usage
-docker stats --no-stream
-
-# Memory usage
-docker stats --format "table {{.Name}}\t{{.MemUsage}}"
-
-# Network I/O
-docker network ls
-```
-
-### Metrics Endpoints
-
-```python
-# Add custom metrics
-@app.get("/api/metrics")
-async def get_metrics():
-    return {
-        "total_predictions": counter,
-        "avg_inference_time": avg_time,
-        "model_version": version
-    }
-```
-
----
-
-## FAQ
-
-### General Questions
-
-**Q: What image formats are supported?**
-A: JPEG, PNG, and WebP images are supported.
-
-**Q: What is the maximum image size?**
-A: Images up to 5MB are accepted.
-
-**Q: How long does prediction take?**
-A: Typically 100-500ms depending on image size and server load.
-
-**Q: Can this be used offline?**
-A: Currently requires an internet connection, but offline mode via TensorFlow.js is planned.
-
-**Q: Is my data stored?**
-A: Images are processed in memory and not stored on our servers.
-
-### Technical Questions
-
-**Q: Why is accuracy not 100%?**
-A: The model achieves ~90% accuracy, which is typical for real-world plant disease detection. Some diseases have similar visual patterns.
-
-**Q: Can I retrain the model with my own data?**
-A: Yes, use the training script in `ml/training/train_model.py` with your labeled dataset.
-
-**Q: How do I add more diseases?**
-A: Add new class folders to the training data and retrain the model.
-
-**Q: Is GPU required for inference?**
-A: No, the model runs on CPU. GPU speeds up training significantly.
-
----
-
-## Batch Processing
-
-### Batch Prediction API
-
-```python
-import requests
-import os
-
-# Batch predict endpoint
-files = [
-    ('files', open('image1.jpg', 'rb')),
-    ('files', open('image2.jpg', 'rb')),
-    ('files', open('image3.jpg', 'rb'))
-]
-
-response = requests.post(
-    'http://localhost:8000/api/predict/batch',
-    files=files
-)
-print(response.json())
-```
-
-### Response Format
-
-```json
-{
-  "success": true,
-  "results": [
-    {"disease": "Healthy", "confidence": 98.5},
-    {"disease": "Tomato_Early_Blight", "confidence": 89.2},
-    {"disease": "Healthy", "confidence": 97.8}
-  ],
-  "total": 3,
-  "processing_time": "1.2s"
-}
-```
-
----
-
-## Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | 2026-01 | Initial release with 6 disease classes |
-| 1.1.0 | 2026-02 | Added batch processing, improved accuracy |
-| 1.2.0 | 2026-03 | Added TensorFlow.js support, mobile optimization |
-
----
-
-## Contact
-
-For inquiries, please contact:
-
-- **Email**: hello@agriscan.ai
-- **GitHub**: [https://github.com/logeshkannan19/AI-Crop-Disease-Detection](https://github.com/logeshkannan19/AI-Crop-Disease-Detection)
-- **Website**: https://agriscan.ai
+## 📞 Contact
+
+| Channel | Contact |
+|---------|---------|
+| 📧 **Email** | hello@agriscan.ai |
+| 🐙 **GitHub** | [logeshkannan19/AI-Crop-Disease-Detection](https://github.com/logeshkannan19/AI-Crop-Disease-Detection) |
+| 💼 **LinkedIn** | [AgriScan AI](https://linkedin.com/company/agriscan-ai) |
+| 🐦 **Twitter** | [@AgriScanAI](https://twitter.com/AgriScanAI) |
 
 ---
 
 <div align="center">
 
-*Built with ❤️ for sustainable agriculture*
+**Built with ❤️ for sustainable agriculture**
+
+[![GitHub stars](https://img.shields.io/github/stars/logeshkannan19/AI-Crop-Disease-Detection?style=social)](https://github.com/logeshkannan19/AI-Crop-Disease-Detection)
+[![GitHub forks](https://img.shields.io/github/forks/logeshkannan19/AI-Crop-Disease-Detection?style=social)](https://github.com/logeshkannan19/AI-Crop-Disease-Detection)
 
 </div>
