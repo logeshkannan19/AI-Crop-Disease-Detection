@@ -21,6 +21,9 @@ model/training_history.png
 node_modules/
 npm-debug.log
 .env
+frontend/dist/
+frontend/package-lock.json
+backend/venv/
 
 # IDE
 .vscode/
