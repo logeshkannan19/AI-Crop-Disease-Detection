@@ -86,6 +86,65 @@ The system leverages deep learning (Convolutional Neural Networks) to analyze pl
 | 🐳 **Containerized** | Docker Compose for easy deployment |
 | 📱 **Mobile Friendly** | Works on any smartphone |
 
+---
+
+## 🎯 Features
+
+### Core Features
+
+| | |
+|---|---|
+| <h3>🔍 Intelligent Disease Detection</h3> | Advanced CNN model trained on 20,000+ plant images to identify diseases with 90%+ accuracy |
+| <h3>💊 Treatment Recommendations</h3> | AI-generated treatment plans including fungicide suggestions, prevention tips, and management strategies |
+| <h3>⚡ Real-time Processing</h3> | Sub-second inference time using optimized TensorFlow model with batch processing support |
+| <h3>🖼️ Multi-format Image Support</h3> | Accepts JPEG, PNG, and WebP images up to 10MB with automatic preprocessing |
+| <h3>📊 Confidence Scoring</h3> | Detailed probability scores for each prediction to help prioritize actions |
+| <h3>🌐 RESTful API</h3> | Well-documented API with Swagger UI for easy integration and testing |
+
+### Advanced Features
+
+| | |
+|---|---|
+| <h3>🔒 Secure File Handling</h3> | Input validation, file type restrictions, size limits, and path traversal prevention |
+| <h3>📈 Batch Processing</h3> | Process multiple images simultaneously for large-scale disease screening |
+| <h3>📱 Responsive Design</h3> | Mobile-first UI that works seamlessly across devices and screen sizes |
+| <h3>🌊 API Rate Limiting</h3> | Configurable rate limits to prevent abuse and ensure fair usage |
+| <h3>📝 Detailed Logging</h3> | Comprehensive logging for debugging, monitoring, and analytics |
+| <h3>🔄 Auto-scaling</h3> | Docker Compose configuration for horizontal scaling in production |
+
+### ML/AI Features
+
+| | |
+|---|---|
+| <h3>🧠 Custom CNN Architecture</h3> | 4-block convolutional network with batch normalization and dropout |
+| <h3>📊 Transfer Learning Ready</h3> | Architecture designed for easy fine-tuning with pre-trained weights |
+| <h3>🔧 Model Versioning</h3> | Support for multiple model versions with seamless switching |
+| <h3>📉 Training Analytics</h3> | Built-in support for training metrics, confusion matrices, and loss curves |
+| <h3>🎚️ Data Augmentation</h3> | Real-time augmentation including rotation, flip, zoom, and brightness adjustment |
+| <h3>💾 Model Export</h3> | Export trained models in standard formats (.h5, .keras, SavedModel) |
+
+### Developer Features
+
+| | |
+|---|---|
+| <h3>📚 Interactive Documentation</h3> | Auto-generated Swagger UI and ReDoc for comprehensive API documentation |
+| <h3>🐛 Debug Mode</h3> | Detailed error messages and stack traces in development environment |
+| <h3>🧪 Test Coverage</h3> | Unit tests for API endpoints, model loading, and preprocessing |
+| <h3>🔄 CI/CD Pipeline</h3> | GitHub Actions workflow for automated testing and deployment |
+| <h3>📦 Docker Support</h3> | Production-ready Docker images with multi-stage builds |
+| <h3>⚙️ Environment Config</h3> | Environment-based configuration for different deployment scenarios |
+
+### Operational Features
+
+| | |
+|---|---|
+| <h3>📊 Health Monitoring</h3> | Health check endpoints for container orchestration and load balancers |
+| <h3>📈 Performance Metrics</h3> | API metrics including response times, prediction counts, and error rates |
+| <h3>🔄 Hot Reload</h3> | Development mode with automatic code reloading |
+| <h3>🌐 CORS Enabled</h3> | Cross-origin resource sharing configured for frontend integration |
+| <h3>📁 File Management</h3> | Automatic cleanup of uploaded files to prevent storage bloat |
+| <h3>🛡️ Error Handling</h3> | Graceful error handling with user-friendly messages |
+
 ### 🎯 Target Audience
 
 - 🌾 Smallholder farmers
