@@ -1,0 +1,74 @@
+{
+  "app": {
+    "title": "AgriScan AI",
+    "tagline": "AI-Powered Crop Disease Detection"
+  },
+  "nav": {
+    "scan": "Scan",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "login": "Login"
+  },
+  "upload": {
+    "title": "Upload Image",
+    "single": "Single Image",
+    "batch": "Batch Upload",
+    "camera": "Use Camera",
+    "drop": "Click to upload or drag and drop",
+    "hint": "Supports: PNG, JPG, JPEG, GIF, BMP, WEBP",
+    "analyze": "Analyze Plant",
+    "analyzing": "Analyzing..."
+  },
+  "result": {
+    "title": "Analysis Result",
+    "newScan": "New Scan",
+    "healthy": "Healthy",
+    "diseased": "Disease Detected",
+    "diagnosis": "Diagnosis",
+    "confidence": "Confidence",
+    "treatment": "Recommended Treatment",
+    "alternatives": "Other Possibilities",
+    "severity": "Severity",
+    "exportPdf": "Export PDF Report",
+    "crop": "Crop"
+  },
+  "dashboard": {
+    "title": "Detection Dashboard",
+    "totalScans": "Total Scans",
+    "healthy": "Healthy Plants",
+    "diseased": "Diseased",
+    "avgConfidence": "Avg Confidence",
+    "recent": "Recent Detections",
+    "trends": "Trends"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "noAccount": "Don't have an account? Register",
+    "hasAccount": "Already have an account? Login"
+  },
+  "weather": {
+    "title": "Disease Risk Alert",
+    "highRisk": "High Risk",
+    "mediumRisk": "Medium Risk",
+    "lowRisk": "Low Risk",
+    "basedOn": "Based on current weather conditions"
+  },
+  "settings": {
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "footer": {
+    "copyright": "AgriScan AI © 2026"
+  },
+  "errors": {
+    "upload": "Failed to analyze image",
+    "connection": "Failed to connect to server",
+    "camera": "Camera access denied"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "app": {
+    "title": "AgriScan AI",
+    "tagline": "Detección de Enfermedades de Cultivos con IA"
+  },
+  "nav": {
+    "scan": "Escanear",
+    "dashboard": "Panel",
+    "logout": "Cerrar Sesión",
+    "login": "Iniciar Sesión"
+  },
+  "upload": {
+    "title": "Subir Imagen",
+    "single": "Imagen Individual",
+    "batch": "Lote",
+    "camera": "Usar Cámara",
+    "drop": "Haga clic para subir o arrastre",
+    "hint": "Soporta: PNG, JPG, JPEG, GIF, BMP, WEBP",
+    "analyze": "Analizar Planta",
+    "analyzing": "Analizando..."
+  },
+  "result": {
+    "title": "Resultado del Análisis",
+    "newScan": "Nuevo Escaneo",
+    "healthy": "Saludable",
+    "diseased": "Enfermedad Detectada",
+    "diagnosis": "Diagnóstico",
+    "confidence": "Confianza",
+    "treatment": "Tratamiento Recomendado",
+    "alternatives": "Otras Posibilidades",
+    "severity": "Severidad",
+    "exportPdf": "Exportar PDF",
+    "crop": "Cultivo"
+  },
+  "dashboard": {
+    "title": "Panel de Detección",
+    "totalScans": "Total de Escaneos",
+    "healthy": "Plantas Sanas",
+    "diseased": "Enfermas",
+    "avgConfidence": "Confianza Prom.",
+    "recent": "Detecciones Recientes",
+    "trends": "Tendencias"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "name": "Nombre",
+    "noAccount": "¿No tiene cuenta? Regístrese",
+    "hasAccount": "¿Ya tiene cuenta? Inicie Sesión"
+  },
+  "weather": {
+    "title": "Alerta de Riesgo de Enfermedad",
+    "highRisk": "Alto Riesgo",
+    "mediumRisk": "Riesgo Medio",
+    "lowRisk": "Bajo Riesgo",
+    "basedOn": "Basado en condiciones climáticas actuales"
+  },
+  "settings": {
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro"
+  },
+  "footer": {
+    "copyright": "AgriScan AI © 2026"
+  },
+  "errors": {
+    "upload": "Error al analizar imagen",
+    "connection": "Error de conexión con el servidor",
+    "camera": "Cámara no disponible"
+  }
+}

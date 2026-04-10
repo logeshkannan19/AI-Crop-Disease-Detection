@@ -1,0 +1,74 @@
+{
+  "app": {
+    "title": "AgriScan AI",
+    "tagline": "人工智能作物病害检测系统"
+  },
+  "nav": {
+    "scan": "扫描",
+    "dashboard": "仪表板",
+    "logout": "退出",
+    "login": "登录"
+  },
+  "upload": {
+    "title": "上传图片",
+    "single": "单张图片",
+    "batch": "批量上传",
+    "camera": "使用相机",
+    "drop": "点击上传或拖放",
+    "hint": "支持: PNG, JPG, JPEG, GIF, BMP, WEBP",
+    "analyze": "分析植物",
+    "analyzing": "分析中..."
+  },
+  "result": {
+    "title": "分析结果",
+    "newScan": "新扫描",
+    "healthy": "健康",
+    "diseased": "检测到病害",
+    "diagnosis": "诊断",
+    "confidence": "置信度",
+    "treatment": "推荐治疗",
+    "alternatives": "其他可能性",
+    "severity": "严重程度",
+    "exportPdf": "导出PDF报告",
+    "crop": "作物"
+  },
+  "dashboard": {
+    "title": "检测仪表板",
+    "totalScans": "总扫描",
+    "healthy": "健康植物",
+    "diseased": "病害",
+    "avgConfidence": "平均置信度",
+    "recent": "最近检测",
+    "trends": "趋势"
+  },
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "name": "姓名",
+    "noAccount": "没有账户？注册",
+    "hasAccount": "已有账户？登录"
+  },
+  "weather": {
+    "title": "病害风险警报",
+    "highRisk": "高风险",
+    "mediumRisk": "中等风险",
+    "lowRisk": "低风险",
+    "basedOn": "基于当前天气条件"
+  },
+  "settings": {
+    "language": "语言",
+    "theme": "主题",
+    "light": "浅色",
+    "dark": "深色"
+  },
+  "footer": {
+    "copyright": "AgriScan AI © 2026"
+  },
+  "errors": {
+    "upload": "图片分析失败",
+    "connection": "连接服务器失败",
+    "camera": "相机访问被拒绝"
+  }
+}
