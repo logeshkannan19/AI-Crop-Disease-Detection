@@ -14,6 +14,10 @@ from backend.app.core.logging import logger
 from backend.app.api.prediction import router as prediction_router
 from backend.app.api.auth.routes import router as auth_router
 from backend.app.api.dashboard.routes import router as dashboard_router
+from backend.app.api.notifications.routes import router as notifications_router
+from backend.app.api.expert.routes import router as expert_router
+from backend.app.api.blockchain.routes import router as blockchain_router
+from backend.app.api.forum.routes import router as forum_router
 from backend.app.services.ml_service import classifier
 
 
@@ -60,6 +64,10 @@ app.add_middleware(
 app.include_router(prediction_router)
 app.include_router(auth_router)
 app.include_router(dashboard_router)
+app.include_router(notifications_router)
+app.include_router(expert_router)
+app.include_router(blockchain_router)
+app.include_router(forum_router)
 
 
 @app.get("/")
