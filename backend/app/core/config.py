@@ -17,8 +17,8 @@ class Settings(BaseSettings):
     PORT: int = 8000
 
     # ML Model
-    MODEL_PATH: str = "ml/model/plant_disease_model.keras"
-    IMAGE_SIZE: int = 128
+    MODEL_PATH: str = "ml/model/plant_disease_efficientnet.keras"
+    IMAGE_SIZE: int = 224
 
     # Upload
     UPLOAD_DIR: str = "backend/app/uploads"

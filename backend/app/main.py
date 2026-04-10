@@ -12,6 +12,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from backend.app.core.config import settings
 from backend.app.core.logging import logger
 from backend.app.api.prediction import router as prediction_router
+from backend.app.api.auth.routes import router as auth_router
+from backend.app.api.dashboard.routes import router as dashboard_router
 from backend.app.services.ml_service import classifier
 
 
@@ -56,6 +58,8 @@ app.add_middleware(
 
 # Include routers
 app.include_router(prediction_router)
+app.include_router(auth_router)
+app.include_router(dashboard_router)
 
 
 @app.get("/")
